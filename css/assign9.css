@@ -1,0 +1,12 @@
+div {
+    width: 400px;
+    font-size: 20px;
+    margin: 30px auto;
+    font-weight: 20px;
+    color: red !important;
+    text-align: center; 
+}
+div{
+    content: "Elzero";
+    background-color: aqua;
+}

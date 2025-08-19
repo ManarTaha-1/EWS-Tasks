@@ -1,0 +1,231 @@
+  /* div .p  nesting حاجة داخل حاجة  
+   background-color:#EEE;
+
+   color: rgb(171, 68, 68);
+ */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .mm {
+    background-color: red;
+    padding: 10px;
+
+  }
+
+  .mm div {
+    background-color: #EEE;
+    font-variant: small-caps;
+    color: rgb(189, 17, 17);
+    font-size: 2rem;
+    float: left;
+    width: calc(95%/4);
+    margin-right: 1%;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .hhh {
+    margin-left: 1%;
+
+  }
+
+  .aaa {
+    background-color: green;
+    color: #eee;
+    position: sticky;
+    top: 0;
+  }
+
+  a:hover {
+
+    color: rgb(164, 238, 130);
+
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 33px;
+    color: red;
+  }
+
+  .check:checked+label {
+    color: green;
+
+  }
+
+  .ch:checked {
+    display: none;
+   }
+
+  a:visited {
+    color: violet;
+  }
+
+  .in:focus {
+    border: dashed 3px blue;
+  }
+
+  .aaa::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-color: transparent red transparent transparent;
+    border-style: solid;
+    border-width: 15px;
+    position: absolute;
+  }
+
+  .parent {
+    background-color: #EEE;
+    padding: 20px;
+    margin: 50px auto;
+    width: 200px;
+    overflow: hidden;
+
+  }
+
+  .one {
+    background-color: red;
+    width: 50%;
+    text-align: center;
+    float: left;
+    position: relative;
+  }
+
+  .io {
+    color: white;
+    background-color: green;
+    border: 5px dotted yellowgreen;
+    width: 200px;
+    text-align: center;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    transition-property: all;
+  }
+
+  .io:hover {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 150px;
+  }
+
+  .oop {
+    background-color: #eee;
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    margin: 30px auto;
+    justify-content: space-between;
+
+
+
+  }
+
+  .oop div {
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: calc(95%/4);
+
+  }
+
+  .wewe {
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    margin: 30px auto;
+    flex-direction: row-reverse;
+
+
+  }
+
+  .wewe div {
+    background-color: purple;
+    color: white;
+
+
+    width: 25%;
+  }
+
+  /*لو انا اللي عاملة الكود مش هستخدم !important والخاصية دي بتخلي الحاجات اللي هعمل عليه اتاشثير تبقى اقوى من ال انلاين تاثير لكن لو انا بعدل على شغل ناس تاني حتاجه جداااااا
+   */
+
+  /* red green blue */
+
+  /* border-style 
+   , border-width 
+   , border-color.
+   the margin collapse 
+   1- only vertical margin collapse 
+   2- bigger margin wins
+   3-margin collapsing with elements without naything between يعني لو هما جمب بعض هيحصل كولابس اللي هي اختفاء انما لو في حاجة بينهم بتفصله ممش هيحصل اختفاء
+   4- nesting does not prevent collapsing 
+   */
+
+  /* background-attachment: scroll; في الحالة دي الصورة بتتقلب معايا لما بقلب بالماوس ولكن لو fixed فهي بتبقى ثابتة معايا مع التقليب بالماوس*/
+
+  /*external style اللي هو استدعي فايل بداخل الكود بتاع html عن طريق العلامة / دي واسم الفولدر وبعدين اسم الفايل بالامتداد بتاعه 
+internal style وده معناه اني بكتب الكود بتاع css بين دول<style>..................</style> 
+inline style ده بقى باثر على العنصر نفسه لوحده وده اقوى واحد فيهم بس غير محبب استخدام هللسبب اللي قولنا عليه تحت
+اكتر واحد محبب بالنسب ةللشركات هو اكسترنال اللي هو الفايل الخارجي لانه لوحده ل وفي اي ايرور بدخل على الفاي لبكل سهولة واعدل مش لازم ادخل على كود html
+*/
+  /* background-attachment: scroll; في الحالة دي الصورة بتتقلب معايا لما بقلب بالماوس ولكن لو fixed فهي بتبقى ثابتة معايا مع التقليب بالماوس*/
+  /* outline 1-padding
+   padding => top-right-bottom-left
+   padding accept percentage , too.
+   we can say padding-top,-right,-bottom,-left .
+   it dose not accept negative.
+   2-border=outline  ولكن الاوت لاين لا يتدخل في عرض العنصر ولا يزيدهعلى عكس البوردروالافضل هو استخدام البوردر  
+   color-kind-volume
+   3-margin 
+   accept negative
+   auto is the best in matgin.
+   21
+
+1-Block
+
+Take Full Width If No Width
+
+Add Line Break
+
+Respect Padding, Margin, Width, Height
+
+2-Inline
+
+Do Not Respect Width, Height
+
+Respect Padding And Margin (Just Left + Right ]
+
+Do Not Add Line Break
+
+Allow Elements Before And After It
+
+3-Inline-Block
+
+Allow Elements Before And After It
+
+Respect Padding, Margin, Width, Height
+display block ده بيحول العنصر الانلاين لبلوك
+default font size for web page is 16px
+em =>one time 2em =>2 time 
+em بتورث من الاكبر للاصغر وهكذا
+rem => root time html وده بقى بناخده من الاب الكبير اللي هو 
+وده الديفلت بتاعه 16 px
+vw => view port وده بيتحكم في الطول والعرض بتاع حيز الخط
+font style => من اسمه كدا بيتحكم في ستايل الخط يخليه مايل او عادي وهكذا 
+font variant => small caps
+font weight => bold
+cursor =>pointer ده بيغير شكل الماوس لشكل نفهم منه انه بيتداس على الكلمة دي
+cursor =>grap ده بيغير شكل الماوس لشكل نفهم منه انه ينفع نسحب الكلمة دي
+position relative => العنصر بيتحرك بناءا على نفسه 
+position absolute => العنصر معدش موجود في الصفحة بقى مطلق وبيتحرك مش بناءا على نفسه بل بناءا على الصفحة اللي موجود فيها وكمان بيخلي العناصر تبقى فوق بعض 
+position fixed => ده بيبقى ثابت مع التقليب في الصفحة 
+position sticky => ده بيخلي العنصر ثابت عند شيء معين 
+z-index=>   ده بيخلي العناصر تترتب من اعلى لاسفل بالنسبة للرقم الاعلى يبقى اعلى واحد وهكذا وبيخلي الاولويات للاعلى في الرقم يظهر من فوق الاقل في الرقم
+*/

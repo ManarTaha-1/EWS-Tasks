@@ -1,0 +1,98 @@
+.parent .child .title {
+    background-color: red;
+}
+
+.parent .title {
+    background-color: rgb(92, 92, 247);
+}
+
+p,
+.title {
+    background-color: green;
+}
+
+.t1 {
+    color: aliceblue;
+    background-color: rgb(255, 0, 187);
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}
+
+.t2 {
+    color: aliceblue;
+    background-color:  rgb(255, 0, 187);
+    width : 200px;
+    height: 40px;
+    padding: 10px;
+}
+
+.t3 {
+    color: aliceblue;
+    background-color: rgb(255, 0, 187);
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+}
+
+.t4 {
+    color: aliceblue;
+    background-color: rgb(255, 0, 187);
+    overflow: scroll;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.shadow {
+    font-style: unset;
+    padding: 30px;
+    font-size: 100px;
+    box-shadow: 3px 4px 4px rgb(23, 23, 23) ;
+    text-shadow: 2px 2px 0px rgb(255, 106, 0)
+    , 5px 5px 0px rgb(10, 1, 255) , 7px 7px 0px  rgb(66, 220, 94)
+    ,10px 10px 1px red;
+}
+
+.one {
+    font-size: 20px;
+    width: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.two {
+    font-size: 20px;
+    width: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: capitalize; 
+}
+
+.three{
+    font-size: 20px;
+    width: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.lorem {
+    background-color: rgb(255, 210, 155);
+    width: 100px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}

@@ -1,0 +1,46 @@
+div {
+    background-color: #eee;
+    color : black;
+    width:400px;
+    padding:10px ;
+    margin:30px auto; 
+    text-align: center;
+    border-color: red  rgb(23, 60, 194);
+    border-style: solid;
+}
+.a{
+    background-color: rgb(23, 60, 194);
+    position: absolute;
+    margin-top: 40px;
+    margin-left :64px ;
+    width: 25px;
+    text-align: center;
+    border-right:red solid ;
+}
+.b{
+    background-color: rgb(23, 60, 194);
+    position: absolute;
+    margin-top: 152px;
+    margin-left :64px ;
+    width: 25px;
+    text-align: center;
+    border-right:red solid ;
+}
+.c{
+    background-color: rgb(23, 60, 194);
+    position: absolute;
+    margin-top: 40px;
+    margin-left :485px ;
+    width: 25px;
+    text-align: center;
+    border-left:red solid ;
+}
+.d{
+    background-color: rgb(23, 60, 194);
+    position: absolute;
+    margin-top: 152px;
+    margin-left :485px ;
+    width: 25px;
+    text-align: center;
+    border-left:red solid ;
+}

@@ -1,0 +1,88 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    background-color: black;
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.blue {
+    background-color: blue;
+    margin-left: 20px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 2;
+}
+
+.green {
+    background-color: green;
+    margin-left: 40px;
+    position: absolute;
+    z-index: 3;
+}
+
+.red {
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: 4;
+}
+
+.main {
+    width: 400px;
+    background-color: #c3c0c0;
+    padding: 5px;
+}
+
+.html {
+    list-style: none;
+}
+
+.html ol li {
+    background-color: #eee;
+    margin: 5px;
+}
+
+.css {
+    list-style: none;
+}
+
+.css ol li {
+    background-color: #eee;
+    margin: 5px;
+}
+
+.java {
+    list-style: none;
+}
+
+.java ul li {
+    background-color: #eee;
+    margin: 5px;
+    list-style: unset;
+}
+
+thead tr th{
+    background-color: black;
+    color: white;
+}
+
+tbody tr td {
+    background-color: #d7d6d6;
+    text-align: center;
+}
+.v {
+    background-color: aqua;
+    color: white;
+}
+
+
+.d {
+    background-color: rgb(255, 0, 191);
+    color: white;
+}

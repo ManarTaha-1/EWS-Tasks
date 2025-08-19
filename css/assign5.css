@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+}
+
+.father {
+    background-color: #e0dcdc;
+    width: 800px;
+    padding: 15px;
+}
+
+.full {
+    float: left;
+    text-align: center;
+    background-color: #cecccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.di1 div {
+    float: left;
+    text-align: center;
+    background-color: #cecccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc((100% - 30px)/3);
+    margin-bottom: 15px;
+}
+
+.di12 {
+    margin: 0 15px;
+}
+
+.di2 div {
+    float: left;
+    text-align: center;
+    background-color: #cecccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc((100% - 15px)/2);
+    margin-bottom: 15px;
+}
+
+.di22 {
+    margin-right: 15px;
+}
+
+.di3 div {
+    float: left;
+    text-align: center;
+    background-color: #cecccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: calc((100% - 45px)/4);
+
+}
+
+.di32 {
+    margin: 0 15px;
+}
+
+.di33 {
+    margin-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #858484;
+    /* Get The Background From Image */
+    color: black;
+}
+.one {
+    background-color: rgb(133, 132, 132 ,0.1);
+}
+.two {
+    color: rgb(0, 0, 0 , 0.1);
+    background-color: rgb(133, 132, 132 ,0.1);
+}

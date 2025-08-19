@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    caret-color: green;
+}
+
+.malak {
+    display: grid;
+    height: 200vh;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: bisque;
+    grid-template-rows: 50px auto 60px;
+    grid-template-areas: " log log log nav nav nav nav nav nav nav "
+        "side side side side con con con con con con"
+        " footer footer footer footer footer footer footer footer footer footer";
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+ul li {
+    display: inline-block;
+}
+h2 {
+    grid-area: log;
+    background-color: red;
+}
+
+nav {
+    grid-area: nav;
+    background-color: rgb(21, 255, 0);
+}
+
+aside {
+    grid-area: side;
+    background-image: linear-gradient(to bottom, rgb(221, 255, 0), blue);
+}
+
+section {
+    grid-area: con;
+    background-color: rgb(247, 0, 255);
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(0, 174, 255);
+}
+
+.manar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: aquamarine;
+    margin: 50px auto;
+    width: 400px;
+    height: 300px;
+    gap:  20px 10px;
+
+}
+
+.manar div {
+    text-align: center;
+    background-color: green;
+    padding: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: brown;
+}
+
+.mnmn {
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.mnmn div {
+    background-color: plum;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin: 50px auto;
+    width: 200px;
+    perspective: 400px;
+
+
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    transform-origin: center right;
+
+}
+
+.box .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: aquamarine;
+    backface-visibility: hidden;
+}
+
+.box .front {
+    background-color: aqua;
+
+
+}
+
+.box .back {
+    background-color: blueviolet;
+    transform: rotatey(180deg);
+
+}
+
+.box:hover {
+    transform: rotatey(-180deg);
+}
+
+.set {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: azure;
+    border-radius: 50%;
+    border: 2px solid blue;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-left-color: transparent;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+.load {
+    justify-content: center;
+    margin: 50px auto;
+    display: flex;
+}
+
+.load div {
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 0 5px;
+    height: 20px;
+    width: 20px ;
+    animation-name: up-and-down;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.load .two {
+    animation-delay: 0.3s;
+}
+.load .three{
+    animation-delay: 0.6s;
+}
+
+@keyframes up-and-down {
+    to {
+        opacity: 0.2;
+        transform: translatey(-20px);
+    }
+
+}

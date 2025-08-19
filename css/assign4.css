@@ -1,0 +1,45 @@
+div {
+    border: 2px solid rgb(221, 0, 255);
+    padding: 39px;
+    width: 400px;
+}
+
+div p {
+    background-color: #adadad;
+    border: inherit;
+    padding: inherit;
+    text-align: center;
+    margin: 0;
+}
+
+.elzero1 {
+    font-weight: 300px;
+    font-size: 30px;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.elzero2 {
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: "Cairo", sans-serif;
+    ;
+}
+
+.elzero3 {
+    font-weight: 400px;
+    font-size: 30px;
+    font-family: "Matemasie", sans-serif;
+    ;
+}
+
+.elzero4 {
+    font-size: 2.5rem;
+}
+
+.elzero5 {
+    font-size: 2rem;
+}
+
+.elzero6 {
+    font-size: 1.5rem;
+}

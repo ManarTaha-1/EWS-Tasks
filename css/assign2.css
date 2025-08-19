@@ -1,0 +1,46 @@
+.sh1 {
+    border: 5px solid red; 
+    background-color: rgb(203, 200, 200);
+    color: black;
+    display: inline-block;
+    margin: 50px; 
+    padding: 30px ;
+    outline: black solid 5px;
+}
+.sh2 {
+    border-color: blue green;
+    border-style: solid;
+    border-width: 5px; 
+    background-color: rgb(203, 200, 200);
+    color: black;
+    display: inline-block;
+    margin: 50px; 
+    padding: 30px ;
+    outline: black solid 5px;
+}
+.sh3 {
+    border-style: dashed;
+    border-color: red green blue yellow;
+    border-width: 5px;
+    background-color: rgb(203, 200, 200);
+    color: black;
+    display: inline-block;
+    margin: 50px; 
+    padding: 30px ;
+    outline: black solid 5px;
+}
+.element{
+    width: 400px;
+    background-color: rgb(230, 226, 221);
+    outline: rgb(230, 226, 221) solid 5px  ;
+    padding: 20px;
+}
+.element-1 {
+    border-left: 5px solid purple ;
+}
+.element-2 {
+    visibility: hidden;
+}
+.element-3 {
+    border-left: 5px solid rgb(0, 128, 55) ;
+}

@@ -1,0 +1,30 @@
+.in {
+    background-color: rgb(241, 241, 241);
+    width: 400px;
+    text-align: center;
+    margin: 60px auto;
+    height: 200px;
+    transition: margin 0.5s;
+
+}
+
+.after {
+    background-color: rgb(169, 172, 172);
+    width: 300px;
+    text-align: center;
+    margin: 5px auto;
+    padding: 20px;   
+    transition: margin 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+.boss:hover {
+    .in {
+       margin-top: 5px;
+    }
+    .after {
+        margin-top: 30px;
+    }
+
+}

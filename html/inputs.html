@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+
+<body>
+    <h3>Hello, please fill in this form</h3>
+    <form action="/test.py/submitted" method="get" novalidate target="_blank">
+        <label for="user"> Username </label>
+        <input id="user" type="text" placeholder="username" name="username" required>
+        <br>
+        <br>
+        <label for="password"> Password </label>
+        <input id="password" type="password" placeholder="complex-password" name="password" minlength="10"
+            maxlength="20">
+        <br>
+        <br>
+        <label for="mob">Mobile </label>
+        <input id="mob" type="tel" placeholder="mobile" name="mobile">
+        <br>
+        <br>
+        <label for="mail">E-mail </label>
+        <input id="mail" type="email" placeholder="email" name="email" value="o@o.com" readonly>
+        <br>
+        <br>
+        <label for="sub"> Subject </label>
+        <input id="sub" type="text" placeholder="subject" name="subject">
+        <br>
+        <br>
+        <label for="hidden">hidden</label>
+        <input type="hidden" id="hidden" value="305030">
+        <br>
+        <br>
+        <input type="range" min="100" max="500" step="50" value="400">
+        <br>
+        <br>
+        <h3>Skills</h3>
+        <label for="problem">problem solving</label>
+        <input type="checkbox" id="problem" name="skills" checked>
+        <br>
+        <label for="ana">Analysis</label>
+        <input type="checkbox" id="ana" name="skills">
+        <br>
+        <label for="search">Advanced Search</label>
+        <input type="checkbox" id="search" name="skills">
+        <br>
+        <label for="logic">Logical Thinking</label>
+        <input type="checkbox" id="logic" name="skills" disabled>
+        <br>
+        <br>
+        <label for="book">Choose Book</label>
+        <select name="book" id="book">
+            <optgroup label="PHP">
+                <option value="1">0.1v</option>
+                <option value="2">0.2v</option>
+                <option value="3">0.3v</option>
+                <option value="4">0.4v</option>
+                <option value="5">0.5v</option>
+                <option value="6">0.6v</option>
+                <option value="7">0.7v</option>
+            </optgroup>
+            <optgroup label="Python">
+                <option value="1">0.1v</option>
+                <option value="2">0.2v</option>
+                <option value="3">0.3v</option>
+                <option value="4">0.4v</option>
+                <option value="5">0.5v</option>
+                <option value="6">0.6v</option>
+                <option value="7">0.7v</option>
+            </optgroup>
+            <optgroup label="c++">
+                <option value="1">0.1v</option>
+                <option value="2">0.2v</option>
+                <option value="3">0.3v</option>
+                <option value="4">0.4v</option>
+                <option value="5">0.5v</option>
+                <option value="6">0.6v</option>
+                <option value="7">0.7v</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <label for="search">Search </label>
+        <br>
+        <input type="search" id="search" placeholder="Enter A Search Word" autofocus>
+        <br>
+        <label for="file">Upload</label>
+        <br>
+        <input type="file" id="file">
+        <br>
+        <label for="url">URL </label>
+        <br>
+        <input type="url" id="url">
+        <br>
+        <label for="date">Date</label>
+        <input type="date" id="date" value="1982-10-25">
+        <br>
+        <br>
+        <label for="month">Month</label>
+        <input type="month" id="month" value="1982-10">
+        <br>
+    <pre>
+        Hello Line One 
+        Hello Line Two 
+        Hello Line Three 
+              Hello Line Four
+    </pre>
+    <br>
+    <iframe src="https://elzero.org/" frameborder="10" width="400px" height="300px"></iframe>
+    
+        <br>
+        <br>
+        <textarea name="brief" cols="40" rows="10"
+            placeholder="write Here Why You WAnt To Learn Programming"></textarea>
+        <br>
+        <input type="submit" value="send data">
+        <input type="reset" value="Empty form">
+    </form>
+</body>
+
+</html>
+<!--ركزي في القيم الافتراضية وطريقة كتابتها في الشهر والتاريخ  -->
